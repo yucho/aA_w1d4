@@ -56,7 +56,7 @@ draw_hello() {
 }
 
 h=12; e=14; l=8; o=10; darkness=10
-offset_commits=7
+offset_commits=8
 total_squares=$(expr \( $h + $e + $l + $l + $o \) \* $darkness )
 add_commits $offset_commits $total_squares
 draw_hello
